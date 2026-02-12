@@ -93,6 +93,15 @@ This ensures:
 ![Frontend Preview](screenshots/screenshot-1.png)
 ![Frontend Preview](screenshots/screenshot-2.png)
 
+## 🌐 Live Demo
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Experience the app live here:
+
+👉 **Frontend Previewer:**  
+[https://your-username.github.io/frontend-previewer/](https://topperguy7.github.io/frontend-previewer/)
+
+No installation required — runs directly in the browser.
+
 👨‍💻 Author
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 [topperguy]<br>
