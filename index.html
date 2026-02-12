@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fp-style.css">
+</head>
+<body>
+    <div id="head">
+        <h1>Frontend Previewer</h1>
+        <div class="btnblock1">
+            <button class="btn1" id="toggle-theme">🌙</button>
+            <button class="btn1" id="abtbtn">about</button>
+        </div>
+    </div>
+
+    <div class="box-overlay" id="box">
+        <h1>About</h1>
+        <p>Frontend Previewer is a browser-based mini code editor that allows users to write and test HTML, CSS, and JavaScript in real time.</p> 
+        <p>The application provides live preview rendering using an iframe with dynamic srcdoc injection, enabling instant feedback while coding.</p> 
+        <p>It includes tab-based editor switching, theme toggling with localStorage persistence, and a responsive UI built using modern CSS variables.</p>
+        <button id="closebtn">&times;</button>
+    </div>
+
+    <div id="container">
+        <div class="output">
+            <h1 class="top">Window</h1>
+            <iframe id="preview" sandbox="allow-scripts"></iframe>
+        </div>
+
+        <div class="editcont">
+            <div class="editors">
+                <h1 id="title">HTML</h1>
+                <textarea id="textarea">
+                    <h1 id="hello">hello</h1>
+                </textarea>
+            </div>
+
+            <div id="btnblock2">
+                <button class="btn2" onclick="switchTab('html')">HTML</button>
+                <button class="btn2" onclick="switchTab('css')">CSS</button>
+                <button class="btn2" onclick="switchTab('js')">JS</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="fp-script.js"></script>
+</body>
+</html>
