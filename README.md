@@ -44,11 +44,11 @@ Frontend-Previewer/<br>
 ⚙️ How It Works
 ------------------------------------------------------------------------------------------------------------------------------------------------------
   1️⃣ State Management
-    The app stores code separately for:
-      • htmlCode
-      • cssCode
-      • jsCode
-When switching tabs, the current editor content is saved before loading the new language.
+    The app stores code separately for:<br>
+      • htmlCode<br>
+      • cssCode<br>
+      • jsCode<br>
+When switching tabs, the current editor content is saved before loading the new language.<br>
 
 2️⃣ Live Preview Rendering
   The preview updates dynamically using:
