@@ -95,5 +95,5 @@ This ensures:
 
 👨‍💻 Author
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-[topperguy]
+[topperguy]<br>
 IT Engineering Student | Frontend Developer | JavaScript Enthusiast
