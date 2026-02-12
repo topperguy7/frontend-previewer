@@ -1,7 +1,6 @@
-🚀 Frontend Previewer
-
+🚀 Frontend Previewer<br>
+------------------------------------------------------------------------------------------------------------------------------------------------------
 A lightweight browser-based code editor that allows users to write and test HTML, CSS, and JavaScript in real time with instant live preview rendering.
-
 This project simulates a simplified CodePen-style environment using pure Vanilla JavaScript.
 
 ✨ Features
