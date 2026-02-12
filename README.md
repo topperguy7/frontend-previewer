@@ -4,47 +4,50 @@ A lightweight browser-based code editor that allows users to write and test HTML
 This project simulates a simplified CodePen-style environment using pure Vanilla JavaScript.
 
 ✨ Features
-
-📝 Live editing for HTML, CSS, and JavaScript
-🔄 Real-time preview using dynamic iframe srcdoc
-🗂 Tab-based editor switching (HTML / CSS / JS)
-🌙 Dark/Light theme toggle with localStorage persistence
-🔐 Sandboxed script execution (iframe sandbox)
-💻 Responsive and clean UI
-📦 No external libraries — built with pure HTML, CSS & JS
+------------------------------------------------------------------------------------------------------------------------------------------------------
+📝 Live editing for HTML, CSS, and JavaScript<br>
+🔄 Real-time preview using dynamic iframe srcdoc<br>
+🗂 Tab-based editor switching (HTML / CSS / JS)<br>
+🌙 Dark/Light theme toggle with localStorage persistence<br>
+🔐 Sandboxed script execution (iframe sandbox)<br>
+💻 Responsive and clean UI<br>
+📦 No external libraries — built with pure HTML, CSS & JS<br>
 
 🖥️ Demo Preview
-User writes code → Editor captures input → 
-State updates → iframe injects combined code → Live Preview updates instantly
+------------------------------------------------------------------------------------------------------------------------------------------------------
+    User writes code → Editor captures input → 
+    State updates → iframe injects combined code → Live Preview updates instantly
 
 🛠 Tech Stack
-  HTML5
-  CSS3
-    Flexbox
-    CSS Variables
-    Transitions
-  JavaScript (Vanilla)
-    DOM Manipulation
-    Event Handling
-    localStorage
-    Template Literals
-    iframe srcdoc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  • HTML5
+  • CSS3
+    • Flexbox
+    • CSS Variables
+    • Transitions
+  • JavaScript (Vanilla)
+    • DOM Manipulation
+    • Event Handling
+    • localStorage
+    • Template Literals
+    • iframe srcdoc
 
 📂 Project Structure
-
-Frontend-Previewer/
-│
-├── index.html
-├── fp-style.css
-├── fp-script.js
-└── README.md
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Frontend-Previewer/<br>
+│<br>
+├── index.html<br>
+├── fp-style.css<br>
+├── fp-script.js<br>
+└── README.md<br>
 
 ⚙️ How It Works
+------------------------------------------------------------------------------------------------------------------------------------------------------
   1️⃣ State Management
     The app stores code separately for:
-      htmlCode
-      cssCode
-      jsCode
+      • htmlCode
+      • cssCode
+      • jsCode
 When switching tabs, the current editor content is saved before loading the new language.
 
 2️⃣ Live Preview Rendering
@@ -75,6 +78,7 @@ This injects user-written code directly into a sandboxed iframe.
 On reload, the theme is restored automatically.
 
 🔐 Security
+------------------------------------------------------------------------------------------------------------------------------------------------------
   The preview window uses:
   
     <iframe sandbox="allow-scripts"></iframe>
@@ -85,10 +89,11 @@ This ensures:
   Reduced XSS risks
 
 📸 UI Overview
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Frontend Preview](screenshots/screenshot-1.png)
 ![Frontend Preview](screenshots/screenshot-2.png)
 
 👨‍💻 Author
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 [topperguy]
 IT Engineering Student | Frontend Developer | JavaScript Enthusiast
